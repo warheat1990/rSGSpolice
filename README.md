@@ -7,28 +7,26 @@ SteamGameSwap 24 hours bot
 Changelog
 ---------
 
-b1.1  
-Fixed validation bug. (!)  
+**b1.1**  
+Fixed bug where bot will remove everything (!).
+
+**b1.2**  
+Fixed some grammar mistake.  
   
-b1.2  
-Fixed bot unable to run under Mono. (!)  
+**b1.3**  
+'Abuse Count' notification removed.  
+Fixed conflict with AutoModerator.  
   
-b1.3  
-Fixed "Please provide a valid confirmation link" bug. (!)  
-Enhanced non-valid trade detection.  
+**b1.4**  
+Changed repost time from every 24 hours to 23 hours.  
   
-b1.4  
-Fixed recheck flair bug. (!)  
+**b1.5**  
+Added timestamp for error log (!).  
+Fixed DateTime bugs (!).  
   
-b1.5  
-Fixed case sensitive problem on validation. (!)  
+**b1.6**  
+Bot will ignore approved thread.  
+Bot will not remove your thread if it was less than 5 minutes from your previous thread.  
   
-b1.6  
-Fixed case sensitive problem in database. (!)  
-  
-b1.7  
-Fixed 'get unread message' bug. (!)  
-  
-b1.8  
-Enhanced trade confirmation detection.  
-Fixed Database error. (!)
+**b1.7**  
+Bot will not remove your thread if your previous thread was removed for any reason(i.e. : removed by Automoderator or removed by mods for offering bundle keys, trading codes without grey flair, etc).
