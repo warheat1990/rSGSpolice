@@ -10,7 +10,7 @@ using System.Threading;
 using System.IO;
 using MySql.Data.MySqlClient;
 
-namespace SGSBot
+namespace rSGSpolice
 {
     class Program
     {
@@ -24,7 +24,7 @@ namespace SGSBot
 
         static void Main(string[] args)
         {
-            Console.WriteLine("SGSBot b1.7");
+            Console.WriteLine("rSGSpolice b1.7");
 
             //var reddit = new Reddit();
             
